@@ -46,16 +46,84 @@
 ?>
 
 <?php 
-    function fully_divisible($a){
-        if ($a % 2 == 0){
-            return "<br>$a is divisible by two"; 
-        } else{
-            return "<br>$a is not divisible by two  \n";
-        }
-    }
+    // function fully_divisible($a){
+    //     if ($a % 2 == 0){
+    //         return "<br>$a is divisible by two"; 
+    //     } else{
+    //         return "<br>$a is not divisible by two  \n";
+    //     }
+    // }
 
-    print_r(fully_divisible(4));
-    print_r(fully_divisible(5));
-    print_r(fully_divisible(10));
-    print_r(fully_divisible(15));
+    // print_r(fully_divisible(4));
+    // print_r(fully_divisible(5));
+    // print_r(fully_divisible(10));
+    // print_r(fully_divisible(15));
+?>
+<?php
+    // $x = 5;
+    // function Draw(){
+    //     $y = 10;
+    //     echo $x;
+    //     echo $y;
+    // }
+    // Draw()
+?>
+<?php
+    // $x = 5;
+    // function Draw(){
+    //     $y = 10;
+        
+    //     echo $y;
+    // }
+    // Draw();
+    // echo "\n ,$x";
+    
+?>
+<?php
+    // $x = 5;
+    // $y = 10;
+
+    // function sum(){
+    //     global $x,$y;
+    //     $y += $x;
+    // }
+    // sum();
+    // echo $y;
+?>
+<?php
+
+    // function Counter(){
+    //     static $count = 0;
+    //     $count++;
+    //     echo "$count <br>";
+    // }
+    // Counter();
+    // Counter();
+?>
+
+<?php
+    // // $sports = array("football","volleyball","basketball","hockey");
+    // $sport = ["football","volleyball","basketball","hockey"];
+    // // echo $sport[2];
+    // echo end($sport);
+    // echo count($sport);
+?>
+
+<?php
+    // $sports = ["football","volleyball","basketball","hockey"];
+    // $len = count($sports);
+    // for ($i=0; $i<$len; $i++){
+    //     echo $sports[$i],"<br>";
+    // }
+?>
+
+<?php
+  $sports = ["football","volleyball","basketball","hockey"];
+  array_push($sports,"Karate");
+  var_dump($sports);  
+?>
+<?php
+  $sports = ["football","volleyball","basketball","hockey"];
+  array_pop($sports);
+  var_dump($sports);  
 ?>
