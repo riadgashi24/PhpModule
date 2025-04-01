@@ -118,12 +118,18 @@
 ?>
 
 <?php
-  $sports = ["football","volleyball","basketball","hockey"];
-  array_push($sports,"Karate");
-  var_dump($sports);  
+//   $sports = ["football","volleyball","basketball","hockey"];
+//   array_push($sports,"Karate");
+//   var_dump($sports);  
 ?>
 <?php
+//   $sports = ["football","volleyball","basketball","hockey"];
+//   array_pop($sports);
+//   var_dump($sports);  
+?>
+
+<?php
   $sports = ["football","volleyball","basketball","hockey"];
-  array_pop($sports);
+  array_unshift($sports,"Karate");
   var_dump($sports);  
 ?>
