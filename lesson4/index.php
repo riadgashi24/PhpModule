@@ -129,7 +129,30 @@
 ?>
 
 <?php
-  $sports = ["football","volleyball","basketball","hockey"];
-  array_unshift($sports,"Karate");
-  var_dump($sports);  
+//   $sports = ["football","volleyball","basketball","hockey"];
+//   array_unshift($sports,"Karate");
+//   var_dump($sports);  
+?>
+<?php
+//   $sports = ["football","volleyball","basketball","hockey"];
+//   array_shift($sports);
+//   var_dump($sports);  
+?>
+<?php
+    // $sports = ["football","volleyball","basketball","hockey","Karate"];
+    // $output = array_splice($sports,1);
+    // $output1 = array_splice($sports,-2,1);
+
+    // var_dump($output);
+    // var_dump($output1);
+?>
+<?php 
+    // $integers = [23,54,6,32,54];
+    // var_dump(array_sum($integers));
+?>
+
+<?php 
+    // $temperaturat = [25,30,25,26,20,28,25];
+    // $vlera_mesatare = array_sum($temperaturat)/count($temperaturat);
+    // echo $vlera_mesatare;
 ?>
