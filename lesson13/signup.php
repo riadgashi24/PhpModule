@@ -1,7 +1,7 @@
 <?php include("header.php") ?>
 
   <div class="signup d-flex flex-column justify-content-center align-items-center h-100">
-    <form action="register.php" method="post" class="signin w-25">
+    <form action="signupLogic.php" method="post" class="signin w-25">
       <h1 class="h33 mb-3 font-weight-normal">Please sign up</h1>
       <label for="inputEmail" class="sr-only">Name</label>
       <input type="text" id="inputEmail" class="form-control" placeholder="name" name="name" required autofocus>

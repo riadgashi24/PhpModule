@@ -1,30 +1,34 @@
 <?php
 
-	include_once('config.php');	
+	require('config.php');	
 
 	if(isset($_POST['submit']))
 	{
-		$name = $_POST['name'];
-		$surname = $_POST['surname'];
         $username = $_POST['username'];
-		$email = $_POST['email'];
-		$tempPassword = $_POST['password'];
-        $password = password_hash($tempPassword, PASSWORD_DEFAULT);
+        $password = $_POST['password'];
 
-        if (empty($name)||empty($surname)||empty($username)||empty($email)||empty($password)) {
-            echo "You need to fill all of the fields";
+        if (empty($username)||empty($password)) {
+            echo "Fill all of the fields";
+            header("refresh:2; url= login.php");
+        }else {
+            $sql = "SELECT * FROM users WHERE username=:username";
+            $insertSql = $conn->prepare($sql);
+            $insertSql->bindParam(':username', $username); 
+            $insertSql->execute();    
+            
+            if ($insertSql -> rowCount()>0) {
+                $data = $insertSql -> fetch();
+                if(password_verify($password,$data['password'])){
+                    $_SESSION['username'] = $data['username'];
+                }else {
+                    echo "Username or Password is incorrect";
+                    header("refresh:2; url=login.php");
+                }
+            }else {
+                echo "User is not found!";
+            }
         }
 
-		
-        $sql = "insert into users (name, surname, email) values (:name, :surname, :email)";
-        $sqlQuery = $conn->prepare($sql);
-    
-        $sqlQuery->bindParam(':name', $name); 
-        $sqlQuery->bindParam(':surname', $surname); 
-        $sqlQuery->bindParam(':email', $email);
 
-        $sqlQuery->execute();
-
-        echo "Data saved successfully ...<br>";
 	}
 ?>
