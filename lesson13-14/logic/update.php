@@ -1,6 +1,6 @@
 <?php
 
-include_once('config.php');
+include_once('../include/config.php');
 
 if(isset($_POST['update']))
 {
@@ -20,7 +20,7 @@ if(isset($_POST['update']))
 
 	$prep->execute();
 
-	header("Location:dashboard.php");
+	header("Location:../dashboard.php");
 }
 
 

@@ -1,4 +1,4 @@
-<?php include("header.php"); ?>
+<?php include("include/header.php"); ?>
 
 <div class="signup">
 		
@@ -30,4 +30,4 @@
 	</form>
 </div>
 
-<?php include("footer.php"); ?>
+<?php include("include/footer.php"); ?>

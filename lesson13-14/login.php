@@ -1,8 +1,10 @@
-<?php include("header.php"); ?>
+<?php include("include/header.php"); 
+session_start();
+?>
 	
 	<div class="login">
 
-		<form class="form-signin" action="loginLogic.php" method="post">
+		<form class="form-signin" action="logic/loginLogic.php" method="post">
 		
 			<h1 class="h3 mb-3 font-weight-normal">Please sign in</h1>
 
@@ -22,4 +24,4 @@
 
 	</div>
 
-<?php include("footer.php"); ?>
+<?php include("include/footer.php"); ?>

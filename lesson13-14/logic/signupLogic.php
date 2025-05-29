@@ -1,6 +1,6 @@
 <?php
 
-	include_once('config.php');	
+	include_once('../include/config.php');	
 
 
 	if(isset($_POST['submit']))
@@ -27,7 +27,7 @@
 			if($tempSQL->rowCount() > 0)
 			{
 				echo "Username exists!";
-				header( "refresh:2; url=signup.php" ); 
+				header( "refresh:2; url=../signup.php" ); 
 			}
 			else
 			{
@@ -43,7 +43,7 @@
 				$insertSql->execute();
 
 				echo "Data saved successfully ...";
-				header( "refresh:2; url=login.php" ); 
+				header( "refresh:2; url=../login.php" ); 
 			}
 		}
 	}

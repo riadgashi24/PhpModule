@@ -28,7 +28,7 @@
 
 			echo "<br>";
 
-			echo "<a href='dashboard.php'>Dashboard</a>";
+			echo "<a href='../dashboard.php'>Dashboard</a>";
 
 	}
 
