@@ -2,7 +2,7 @@
 
 <div class="signup">
 		
-	<form class="form-signin" action="signupLogic.php" method="post">
+	<form class="form-signin" action="logic/signupLogic.php" method="post">
 		
 		<h1 class="h3 mb-3 font-weight-normal">Please sign up</h1>
 
