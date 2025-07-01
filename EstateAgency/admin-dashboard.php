@@ -39,6 +39,7 @@ $properties = $propStmt->fetchAll(PDO::FETCH_ASSOC);
         <h1>Admin Dashboard</h1>
         <p>
             <a href="add-user.php" class="btn btn-add">Add New User</a>
+            <a href="index.php" class="btn btn-back">Back to Home</a>
             <a href="logout.php" class="btn btn-delete" style="float:right;">Logout</a>
         </p>
 
@@ -95,6 +96,9 @@ $properties = $propStmt->fetchAll(PDO::FETCH_ASSOC);
             </tr>
             <?php endforeach; ?>
         </table>
+        <p>
+            <a href="add-property.php" class="btn btn-add">Add New Property</a>
+        </p>    
     </div>
 </body>
 </html>

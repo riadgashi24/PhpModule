@@ -98,6 +98,7 @@ $properties = $propStmt->fetchAll(PDO::FETCH_ASSOC);
         <h1>Welcome, <?php echo htmlspecialchars($_SESSION['role']); ?>!</h1>
         <div class="dashboard-actions">
             <a href="add-property.php" class="btn btn-add">+ Add New Property</a>
+            <a href="index.php" class="btn btn-back">Back to Home</a>
             <a href="logout.php" class="btn btn-logout">Logout</a>
         </div>
 

@@ -29,9 +29,9 @@ session_start();
         <?php else: ?>
           <a href="logout.php">Logout</a>
           <?php if ($_SESSION['role'] === 'agent'): ?>
-            <a href="add-property.php">Add Property</a>
+            <a href="agent-dashboard.php">Dashboard</a>
           <?php elseif ($_SESSION['role'] === 'admin'): ?>
-            <a href="add-user.php">Add User</a>
+            <a href="admin-dashboard.php">Dashboard</a>
           <?php endif; ?>
         <?php endif; ?>
       </nav>
