@@ -98,8 +98,8 @@
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>Our Services</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+        <h2>What We Offer</h2>
+        <p>Discover how we make real estate simple, stress-free, and rewarding for you.</p>
       </div><!-- End Section Title -->
 
       <div class="container">
@@ -112,9 +112,9 @@
                 <i class="bi bi-activity"></i>
               </div>
               <a href="service-details.html" class="stretched-link">
-                <h3>Nesciunt Mete</h3>
+                <h3>Property Management</h3>
               </a>
-              <p>Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure perferendis tempore et consequatur.</p>
+              <p>We handle everything from tenant screening to maintenance, so you can relax and enjoy steady rental income.</p>
             </div>
           </div><!-- End Service Item -->
 
@@ -124,9 +124,9 @@
                 <i class="bi bi-broadcast"></i>
               </div>
               <a href="service-details.html" class="stretched-link">
-                <h3>Eosle Commodi</h3>
+                <h3>Home Buying Assistance</h3>
               </a>
-              <p>Ut autem aut autem non a. Sint sint sit facilis nam iusto sint. Libero corrupti neque eum hic non ut nesciunt dolorem.</p>
+              <p>Looking for your dream home? Our agents guide you through every step, from search to closing.</p>
             </div>
           </div><!-- End Service Item -->
 
@@ -136,9 +136,9 @@
                 <i class="bi bi-easel"></i>
               </div>
               <a href="service-details.html" class="stretched-link">
-                <h3>Ledo Markt</h3>
+                <h3>Home Selling Services</h3>
               </a>
-              <p>Ut excepturi voluptatem nisi sed. Quidem fuga consequatur. Minus ea aut. Vel qui id voluptas adipisci eos earum corrupti.</p>
+              <p>We help you market your property, find buyers, and get the best price—fast and hassle-free.</p>
             </div>
           </div><!-- End Service Item -->
 
@@ -260,7 +260,7 @@
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
         <h2>Testimonials</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+        <p>See what our happy clients have to say about working with us.</p>
       </div><!-- End Section Title -->
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -291,7 +291,8 @@
               }
             }
           </script>
-          <div class="swiper-wrapper">
+
+        <div class="swiper-wrapper">
 
             <div class="swiper-slide">
               <div class="testimonial-item">
@@ -299,12 +300,12 @@
                   <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                 </div>
                 <p>
-                  Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+                  "EstateAgency made selling our home so easy! Their team handled everything and got us a great price. Highly recommend!"
                 </p>
                 <div class="profile mt-auto">
                   <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
-                  <h3>Saul Goodman</h3>
-                  <h4>Ceo &amp; Founder</h4>
+                  <h3>Emily Carter</h3>
+                  <h4>Home Seller</h4>
                 </div>
               </div>
             </div><!-- End testimonial item -->
@@ -315,12 +316,12 @@
                   <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                 </div>
                 <p>
-                  Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
+                  "We found our dream home thanks to the patience and expertise of the agents. They answered all our questions and made the process stress-free."
                 </p>
                 <div class="profile mt-auto">
                   <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
-                  <h3>Sara Wilsson</h3>
-                  <h4>Designer</h4>
+                  <h3>Michael Lee</h3>
+                  <h4>First-Time Buyer</h4>
                 </div>
               </div>
             </div><!-- End testimonial item -->
@@ -331,12 +332,12 @@
                   <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                 </div>
                 <p>
-                  Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
+                  "As a landlord, I appreciate how EstateAgency manages my rental property. They take care of everything, and I get my payments on time."
                 </p>
                 <div class="profile mt-auto">
                   <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
-                  <h3>Jena Karlis</h3>
-                  <h4>Store Owner</h4>
+                  <h3>Priya Singh</h3>
+                  <h4>Property Owner</h4>
                 </div>
               </div>
             </div><!-- End testimonial item -->
@@ -347,12 +348,12 @@
                   <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                 </div>
                 <p>
-                  Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
+                  "The team was always available and kept us updated throughout the buying process. We felt supported every step of the way."
                 </p>
                 <div class="profile mt-auto">
                   <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
-                  <h3>Matt Brandon</h3>
-                  <h4>Freelancer</h4>
+                  <h3>David Kim</h3>
+                  <h4>Home Buyer</h4>
                 </div>
               </div>
             </div><!-- End testimonial item -->
@@ -363,12 +364,12 @@
                   <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                 </div>
                 <p>
-                  Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
+                  "I was nervous about renting out my apartment, but EstateAgency found reliable tenants quickly and handled all the paperwork."
                 </p>
                 <div class="profile mt-auto">
                   <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
-                  <h3>John Larson</h3>
-                  <h4>Entrepreneur</h4>
+                  <h3>Linda Martinez</h3>
+                  <h4>Landlord</h4>
                 </div>
               </div>
             </div><!-- End testimonial item -->

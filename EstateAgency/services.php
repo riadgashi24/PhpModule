@@ -146,6 +146,19 @@
             </div>
           </div><!-- End Service Item -->
 
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="700">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="bi bi-house"></i>
+              </div>
+              <a href="service-details.html" class="stretched-link">
+                <h3>Rental Listings</h3>
+              </a>
+              <p>Browse a wide range of rental properties to find your next home, with expert support every step of the way.</p>
+              <a href="service-details.html" class="stretched-link"></a>
+            </div>
+          </div><!-- End Service Item -->
+
         </div>
 
       </div>
